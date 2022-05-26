@@ -1083,4 +1083,12 @@ h1 {
   color: var(--beta);
   font-weight: bold;
 }
+
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr auto;
+      grid-template-rows: 1fr auto;
+  min-height: 100vh;
+}
 /*# sourceMappingURL=main.css.map */
